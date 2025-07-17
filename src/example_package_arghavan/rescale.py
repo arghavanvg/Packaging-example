@@ -1,5 +1,7 @@
 import numpy as np 
 
+
+#Comment
 def rescale(input_array): 
     """Rescales an array from 0 to 1.""" 
     low = np.min(input_array) 
