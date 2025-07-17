@@ -9,9 +9,9 @@ name = "example_package_arghavan"
 version = "0.1.0" 
 dependencies = ["numpy"]
 dynamic = ["version"] 
+[tool.hatch]
+version.path = "src/example_package_arghavan/__init__.py"
 
 [project.optional-dependencies]
 test = ["pytest"]
 
-[tool.hatch]
-version.path = "src/example_package_arghavan/__init__.py"
