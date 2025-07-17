@@ -6,9 +6,9 @@ build-backend = "hatchling.build"
 
 [project] 
 name = "example_package_arghavan" 
-version = "0.1.0" 
-dependencies = ["numpy"]
 dynamic = ["version"] 
+dependencies = ["numpy"]
+
 [tool.hatch]
 version.path = "src/example_package_arghavan/__init__.py"
 
