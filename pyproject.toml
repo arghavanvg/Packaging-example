@@ -11,3 +11,9 @@ dependencies = ["numpy"]
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[project] 
+dynamic = ["version"] 
+
+[tool.hatch]
+version.path = "src/example_package_arghavan/__init__.py"
